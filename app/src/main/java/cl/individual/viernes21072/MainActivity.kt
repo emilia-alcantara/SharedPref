@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
         binding.txtTextoIngresado.text = "El texto guardado es: $texto"
         binding.txtDecimalIngresado.text = "El decimal guardado es: ${decimal.toString()}"
         binding.txtValorEntero.text = "El número entero guardado es:  ${entero.toString()}"
-        binding.txtSwitch.text = "El estado del switch que se guardó es: ${switch.toString()}"
+        binding.txtSwitch.text = "El estado del switch: ${switch.toString()}"
 
     }
 

@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Viernes21072</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
+    <string name="ingresa_un_numero_decimal">Ingresa un numero decimal</string>
+    <string name="ingresa_un_texto">Ingresa un texto</string>
+    <string name="ingresa_un_numero_entero">Ingresa un numero entero</string>
+    <string name="valor_decimal">Valor decimal</string>
+    <string name="valor_entero">Valor entero</string>
+    <string name="texto">Texto</string>
+    <string name="estado_del_switch">Estado del switch</string>
+    <string name="mostrar_datos_guardados">Mostrar datos guardados</string>
 </resources>
