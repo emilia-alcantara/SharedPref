@@ -10,5 +10,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        initListeners()
+    }
+
+    private fun initListeners() {
+        binding.btnGuardar.setOnClickListener{
+            val textoIngresado = binding.editTextoIngresado.text.toString()
+            val enteroIngresado = binding.editNumEntero.text.toString().toInt()
+            val decimalIngresado = binding.editNumDecimal.text.toString().toDouble()
+            val switch = binding.switch1.isChecked
+        }
     }
 }
